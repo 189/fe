@@ -28,6 +28,7 @@ module.exports = {
   */
   build: {
     vendor: ['~/plugins/iview'],
+    publicPath : '/static',
     /*
     ** Run ESLint on save
     */
@@ -40,6 +41,7 @@ module.exports = {
           exclude: /(node_modules)/
         })
       }
-    }
+    },
+    extractCSS : true
   }
 }
