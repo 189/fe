@@ -5,12 +5,12 @@
       <div class="grid">
         <div class="logo"></div>
         <ul class="nav">
-          <li>首页</li>
-          <li>米其林预定</li>
-          <li>自由行推荐</li>
-          <li>包车/送机</li>
-          <li>目的地</li>
-          <li>了解日本</li>
+          <li><a href="javascript:;">首页</a></li>
+          <li><a href="javascript:;">米其林预定</a></li>
+          <li><a href="javascript:;">自由行推荐</a></li>
+          <li><a href="javascript:;">包车/送机</a></li>
+          <li><a href="javascript:;">目的地</a></li>
+          <li><a href="javascript:;">了解日本</a></li>
         </ul>
       </div>
     </div>
@@ -58,6 +58,12 @@ export default {
   .page-header  .nav li {
     display: inline-block;
     margin: 0 20px;
+  }
+
+  .page-header .nav li a {
+    color : #fff;
+    display: block;
+    height: 100%;
   }
 </style>
 
