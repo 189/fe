@@ -1,0 +1,21 @@
+
+@import './constants.scss';
+
+.i-b { display : inline-block; }
+.fl { float : left; }
+.fr { float : right; } 
+
+.clearfix:before { 
+  clear: both;
+  height : 0;
+  font-size: 0;
+  overflow: hidden;
+  display: table;
+  content : '';
+}
+
+.grid {
+  width : 710px;
+  margin : 0 auto;
+}
+
