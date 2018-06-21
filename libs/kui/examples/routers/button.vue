@@ -11,14 +11,14 @@
         <Button type="warning">Warning</Button>
         <Button type="error">Error</Button>
         <br><br>
-        <Button type="primary" shape="circle" icon="ios-search"></Button>
-        <Button type="primary" icon="ios-search">Search</Button>
-        <Button type="primary" shape="circle" icon="ios-search">Search</Button>
+        <Button type="primary" shape="circle" icon="search"></Button>
+        <Button type="primary" icon="search">Search</Button>
+        <Button type="primary" shape="circle" icon="search">Search</Button>
         <Button type="primary" shape="circle">Circle</Button>
         <br><br>
-        <Button type="ghost" shape="circle" icon="ios-search"></Button>
-        <Button type="ghost" icon="ios-search">Search</Button>
-        <Button type="ghost" shape="circle" icon="ios-search">Search</Button>
+        <Button type="ghost" shape="circle" icon="search"></Button>
+        <Button type="ghost" icon="search">Search</Button>
+        <Button type="ghost" shape="circle" icon="search">Search</Button>
         <Button type="ghost" shape="circle">Circle</Button>
         <br><br>
         <Button>Default</Button>

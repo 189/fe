@@ -27,10 +27,8 @@
 .button-variant(@color; @background; @border) {
   .button-color(@color; @background; @border);
 
-  &:hover
-  //&:focus
-  {
-      .button-color(tint(@color, 20%); tint(@background, 20%); tint(@border, 20%));
+  &:hover {
+    .button-color(tint(@color, 20%); tint(@background, 20%); tint(@border, 20%));
   }
   &:active,
   &.active {
