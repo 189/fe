@@ -14,12 +14,10 @@ nav {
 </style>
 <template>
     <div class="container">
-        <p>
-            1311131
-        </p>
         <nav>
             <ul>
                 <li><router-link to="/button">Button</router-link></li>
+                <li><router-link to="/icon">icon</router-link></li>
                 <!-- <li><router-link to="/layout">Layout</router-link></li>
                 <li><router-link to="/affix">Affix</router-link></li>
                 <li><router-link to="/grid">Grid</router-link></li>

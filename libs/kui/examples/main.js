@@ -20,8 +20,12 @@ const router = new VueRouter({
     esModule: false,
     routes: [
         {
+            path: '/icon',
+            component: resolve => require(['./routers/icon.vue'], resolve)
+        },
+        {
             path: '/button',
-            component: (resolve) => require(['./routers/button.vue'], resolve)
+            component: resolve => require(['./routers/button.vue'], resolve)
         }
         // {
         //     path: '/affix',
