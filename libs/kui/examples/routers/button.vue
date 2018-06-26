@@ -1,11 +1,38 @@
 <template>
     <div>
+        <p>type</p>
         <Button>Default</Button>
         <Button type="primary">Primary</Button>
         <Button type="ghost">Ghost</Button>
         <Button type="dashed">Dashed</Button>
         <Button type="text">Text</Button>
         <br><br>
+        <Button type="info">Info</Button>
+        <Button type="success">Success</Button>
+        <Button type="warning">Warning</Button>
+        <Button type="error">Error</Button>
+        <p>Disabled</p>
+        <Button disabled>Default</Button>
+        <Button type="primary" disabled>Primary</Button>
+        <Button type="ghost" disabled>Ghost</Button>
+        <Button type="dashed" disabled>Dashed</Button>
+        <Button type="text" disabled >Text</Button>
+        <br><br>
+        <Button type="info" disabled>Info</Button>
+        <Button type="success" disabled>Success</Button>
+        <Button type="warning" disabled>Warning</Button>
+        <Button type="error" disabled>Error</Button>
+        <p>Size</p>
+        <Button size="large">large</Button>
+        <Button>default</Button>
+        <Button size="small">small</Button>
+        <p>shape</p>
+        <Button shape="circle" icon="search"></Button>
+        <Button shape="circle" loading icon="search"></Button>
+        <Button shape="circle" loading icon="search">search</Button>
+        <p>Long</p>
+        <Button long size="large" icon="search" type="primary">long</Button>
+        <!--
         <Button type="info">Info</Button>
         <Button type="success">Success</Button>
         <Button type="warning">Warning</Button>
@@ -128,7 +155,7 @@
         <Button-group size="small" shape="circle">
             <Button type="ghost">Small</Button>
             <Button type="ghost">Small</Button>
-        </Button-group>
+        </Button-group> -->
     </div>
 </template>
 <script>
