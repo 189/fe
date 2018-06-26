@@ -4,7 +4,7 @@
         :class="classes"
         :disabled="disabled"
         @click="handleClick">
-        <Icon class="ivu-load-loop" type="load-c" v-if="loading"></Icon>
+        <Icon class="kui-load-loop" type="loading" v-if="loading"></Icon>
         <Icon :type="icon" v-if="icon && !loading"></Icon>
         <span v-if="showSlot" ref="slot"><slot></slot></span>
     </button>

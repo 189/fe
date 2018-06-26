@@ -1,28 +1,16 @@
-.button-size(@padding; @font-size; @border-radius) {
-  padding: @padding;
-  font-size: @font-size;
-  border-radius: @border-radius;
+.button-color(@color; @background; @border) {
+    color: @color;
+    background-color: @background;
+    border-color: @border;
 }
 
-.button-color(@color; @background; @border) {
-  color: @color;
-  background-color: @background;
-  border-color: @border;
-  // a inside Button which only work in Chrome
-  // http://stackoverflow.com/a/17253457
-  > a:only-child {
-      color: currentColor;
-      &:after {
-          content: '';
-          position: absolute;
-          top: 0;
-          left: 0;
-          bottom: 0;
-          right: 0;
-          background: transparent;
-      }
-  }
+.button-size(@padding; @font-size; @border-radius) {
+    padding: @padding;
+    font-size: @font-size;
+    border-radius: @border-radius;
 }
+
+
 
 .button-variant(@color; @background; @border) {
   .button-color(@color; @background; @border);
@@ -169,6 +157,11 @@
   &-small {
       .button-size(@btn-padding-small; @btn-font-size; @btn-border-radius-small);
   }
+
+  .@{css-prefix}load-loop {
+    line-height: 1;
+    font-size : 16px;
+ }
 }
 
 // Default
@@ -398,4 +391,5 @@
       border-bottom-left-radius: 0;
       padding-top: 8px;
   }
+
 }
