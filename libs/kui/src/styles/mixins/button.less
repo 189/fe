@@ -158,10 +158,7 @@
       .button-size(@btn-padding-small; @btn-font-size; @btn-border-radius-small);
   }
 
-  .@{css-prefix}load-loop {
-    line-height: 1;
-    font-size : 16px;
- }
+  
 }
 
 // Default
@@ -276,7 +273,7 @@
 }
 
 // Circle for Icon
-.btn-circle(@btnClassName: ivu-btn) {
+.btn-circle(@btnClassName: bui-btn) {
   border-radius: @btn-circle-size;
 
   &.@{btnClassName}-large{
@@ -300,11 +297,17 @@
           .square(@btn-circle-size-small);
           .button-size(0; @font-size-base; 50%);
       }
-  }
+		
+			.@{css-prefix}load-loop {
+				line-height: 1;
+				font-size : 16px;
+		 }
+	}
+  
 }
 
 // Group
-.btn-group(@btnClassName: ivu-btn) {
+.btn-group(@btnClassName: bui-btn) {
   .button-group-base(@btnClassName);
 
   .@{btnClassName} + .@{btnClassName},
